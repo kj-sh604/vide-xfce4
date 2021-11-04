@@ -1,17 +1,45 @@
-/* We set some default options here.  This is loaded with a low priority,
- * the rest will use whatever default colors are in your main gtk theme */
 #XfceNotifyWindow {
-    border-radius: 6px;
-    border-width: 1px;
-    border-color : #ffffff;
+    background-color: #000000;
+    border-radius: 2px;
+    border-width: 2px;
+    border: 2px solid #0f0;
+    border-color: #d1d1d1;
+    padding: 20px;
+}
+
+#XfceNotifyWindow:hover {
+    background-color: #000000;
+    border-radius: 2px;
+    border-width: 2px;
+    border: 2px solid #0f0;
+    border-color: #d1d1d1;
+    padding: 20px;
 }
 
 #XfceNotifyWindow label,
 #XfceNotifyWindow image {
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono", monospace;
     font-size: 10px;
+    color: #d1d1d1;
 }
 
 #XfceNotifyWindow label#summary {
     font-weight: Bold;
+}
+
+#XfceNotifyWindow button {
+    border-style: none;
+    background-image: none;
+    border: 2px solid #0f0;
+    border-color: #d1d1d1;
+    background-color: #000000;
+}
+
+#XfceNotifyWindow button:hover {
+    border-style: none;
+    background-image: none;
+    border: 2px solid #0f0;
+    border-color: #d1d1d1;
+    background-color: #000000;
+
 }
